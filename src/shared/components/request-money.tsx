@@ -1,13 +1,13 @@
 import { formatMoney } from '@shared/lib/format';
+import type { RequestMoneySummary } from '@shared/helpers';
 import { useTranslation } from 'react-i18next';
 import { Group, Text } from '@mantine/core';
-import type { RequestMoneySummary } from '../model/types';
 
-type RequestCardMoneyProps = {
+type RequestMoneyProps = {
   money: RequestMoneySummary;
 };
 
-export default function RequestCardMoney({ money }: RequestCardMoneyProps) {
+export default function RequestMoney({ money }: RequestMoneyProps) {
   const { t } = useTranslation();
 
   return (

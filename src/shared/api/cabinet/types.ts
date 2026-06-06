@@ -27,12 +27,17 @@ export type RequestProduct = {
   model: string;
   brandterm: { name: string };
   categoryterm: { name: string };
+  changed?: number;
+  shippingTime?: string;
+  shippingMin?: number;
+  shippingMax?: number;
+  weight?: number;
+  status?: string;
+  disabled?: boolean;
 };
 
-export type InvoiceProduct = {
+export type LineProduct = {
   id: string;
-  created: number;
-  active: boolean;
   lineNum: number;
   title: string;
   qty: number;
@@ -42,6 +47,11 @@ export type InvoiceProduct = {
   unitNoVat: number;
   line: number;
   lineNoVat: number;
+};
+
+export type InvoiceProduct = LineProduct & {
+  created: number;
+  active: boolean;
 };
 
 export type InvoicePayment = {
@@ -73,6 +83,80 @@ export type Invoice = {
   invoicePayments: InvoicePayment[];
 };
 
+export type Proposal = {
+  id: string;
+  created: number;
+  changed: number;
+  title: string;
+  actuality: string;
+  shippingTime: string;
+  prepaid: number;
+  companyDetails: string;
+  proposalProducts: LineProduct[];
+};
+
+export type CustomerAccount = {
+  id: string;
+  buyer: string;
+  inn: string;
+  kpp: string;
+  ogrn: string;
+  okpo: string;
+  rs: string;
+  ks: string;
+  bik: string;
+  bank: string;
+  formalAddress: string;
+  postalAddress: string;
+  shippingAddress: string;
+  actualAddress: string;
+  invoicePrepaidRequired: number;
+  noContractRequired: number;
+  phone: string;
+  customerName: string;
+  customerPosition: string;
+};
+
+export type ShippingGroup = {
+  id: string;
+  created: number;
+  postDate: number;
+  documentsDate: number;
+  gtd: string;
+};
+
+export type Shipping = {
+  id: string;
+  created: number;
+  changed: number;
+  received: number;
+  sentToClient: number;
+  productsIds: string;
+  shippingProducts: Array<{ id: string; productID: string }>;
+  shippingGroup: ShippingGroup;
+};
+
+export type Order = {
+  id: string;
+  created: number;
+  changed: number;
+  postDate: number;
+  received: string;
+  status: number;
+  products: Array<{ id: string; shippingMin: number; shippingMax: number }>;
+  shippings: Shipping[];
+};
+
+export type Upd = {
+  id: string;
+  created: number;
+  changed: number;
+  number: number;
+  date: number;
+  updProducts: Array<{ productID: string }>;
+  updRequests: Array<{ requestID: string }>;
+};
+
 export type RequestAggregate = {
   id: string;
   created: number;
@@ -93,20 +177,13 @@ export type RequestAggregate = {
     name: string;
     phone: string;
   };
-  customerAccount: {
-    id: string;
-    buyer: string;
-    inn: string;
-  } | null;
+  customerAccount: CustomerAccount | null;
   productsRequested: RequestProduct[];
   products: RequestProduct[];
-  proposals: Array<{ id: string }>;
+  proposals: Proposal[];
   invoices: Invoice[];
-  orders: Array<{
-    id: string;
-    shippings: Array<{ id: string }>;
-  }>;
-  upds: Array<{ id: string }>;
+  orders: Order[];
+  upds: Upd[];
 };
 
 export type CustomerCabinet = {

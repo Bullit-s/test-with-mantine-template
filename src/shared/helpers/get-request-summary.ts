@@ -6,7 +6,7 @@ import {
 } from '@shared/api/cabinet';
 import { formatUnixDate } from '@shared/lib/format';
 import type { NextStepKey, TrackerStepIndex } from './constants';
-import type { RequestCardSummary, RequestMoneySummary, RequestProductsSummary } from './types';
+import type { RequestMoneySummary, RequestProductsSummary, RequestSummary } from './types';
 
 function getTrackerStep(request: RequestAggregate): TrackerStepIndex {
   if (request.upds.length > 0) {
@@ -82,7 +82,7 @@ function getProductsSummary(request: RequestAggregate): RequestProductsSummary {
   };
 }
 
-export function getRequestSummary(request: RequestAggregate): RequestCardSummary {
+export function getRequestSummary(request: RequestAggregate): RequestSummary {
   const trackerStep = getTrackerStep(request);
 
   return {

@@ -42,5 +42,47 @@
     "units": {
       "pcs": "шт."
     }
+  },
+  "request": {
+    "notFound": "Заявка не найдена",
+    "back": "К заявкам",
+    "documents": {
+      "invoiceTitle": "Счёт {{number}}",
+      "order": "Заказ / Доставка",
+      "updTitle": "УПД №{{number}} от {{date}}",
+      "account": "Реквизиты"
+    },
+    "invoice": {
+      "total": "Итого: {{amount}} (оплачено {{percent}}%)",
+      "prepaid": "Предоплата: {{percent}}%",
+      "payment": "Оплачено: {{amount}} {{date}}",
+      "shippingTime": "Срок поставки: {{time}}",
+      "showLines": "▸ детали (позиции)",
+      "hideLines": "▾ скрыть позиции",
+      "line": "{{title}} × {{qty}} — {{amount}}"
+    },
+    "order": {
+      "status": "Статус: {{status}}",
+      "ordered": "Заказан: {{date}}",
+      "shipped": "Отгружен: {{date}}",
+      "gtd": "ГТД: {{gtd}}",
+      "received": {
+        "partial": "частично получен",
+        "full": "получен",
+        "none": "не получен"
+      }
+    },
+    "upd": {
+      "downloadHint": "Скачать PDF — будет доступно позже"
+    },
+    "account": {
+      "buyer": "Покупатель",
+      "inn": "ИНН",
+      "kpp": "КПП",
+      "bank": "Банк",
+      "rs": "Р/с",
+      "bik": "БИК",
+      "address": "Юр. адрес"
+    }
   }
 }

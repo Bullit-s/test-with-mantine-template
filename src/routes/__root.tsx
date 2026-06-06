@@ -18,9 +18,9 @@ function RootLayout() {
       <MantineProvider theme={theme}>
         <AppLayout>
           <Outlet />
-        </AppLayout>
 
-        {import.meta.env.DEV ? <TanStackRouterDevtools position="bottom-right" /> : null}
+          {import.meta.env.DEV ? <TanStackRouterDevtools position="bottom-right" /> : null}
+        </AppLayout>
       </MantineProvider>
     </QueryClientProvider>
   );

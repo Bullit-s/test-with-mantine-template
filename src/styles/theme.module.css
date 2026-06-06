@@ -17,21 +17,31 @@
   color: var(--mantine-color-gray-5);
 }
 
-.stepperStepIcon[data-progress],
 .stepperStepIcon[data-completed] {
   background-color: var(--mantine-color-green-0);
   border-color: var(--mantine-color-green-4);
   color: var(--mantine-color-green-7);
 }
 
-.stepperStepCompletedIcon {
-  color: var(--mantine-color-green-4);
+.stepperStepIcon[data-progress] {
+  background-color: var(--mantine-color-green-7);
+  border-color: var(--mantine-color-green-7);
+  color: var(--mantine-color-white);
+  --stepper-icon-color: var(--mantine-color-white);
 }
 
-.stepperStep[data-progress],
+.stepperStepCompletedIcon {
+  color: var(--mantine-color-green-7);
+}
+
 .stepperStep[data-completed] {
-  --stepper-step-label-color: var(--mantine-color-green-7);
-  --stepper-step-label-weight: 500;
+  --stepper-step-label-color: var(--mantine-color-green-6);
+  --stepper-step-label-weight: 400;
+}
+
+.stepperStep[data-progress] {
+  --stepper-step-label-color: var(--mantine-color-green-8);
+  --stepper-step-label-weight: 700;
 }
 
 .stepperSeparator {

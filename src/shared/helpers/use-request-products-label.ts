@@ -1,7 +1,7 @@
+import type { RequestProductsSummary } from './types';
 import { useTranslation } from 'react-i18next';
-import type { RequestProductsSummary } from '../../model/types';
 
-export function useProductsLabel(products: RequestProductsSummary): string {
+export function useRequestProductsLabel(products: RequestProductsSummary): string {
   const { t } = useTranslation();
 
   if (products.type === 'pending') {

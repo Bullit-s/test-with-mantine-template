@@ -1,7 +1,6 @@
 import type { NextStepKey, TrackerStepIndex } from './constants';
 
-/** View-model карточки заявки на странице orders. */
-export type RequestCardSummary = {
+export type RequestSummary = {
   id: string;
   createdLabel: string;
   products: RequestProductsSummary;

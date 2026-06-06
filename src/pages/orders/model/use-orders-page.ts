@@ -1,7 +1,6 @@
-import { useQuery } from '@tanstack/react-query';
 import { fetchCabinet } from '@shared/api/cabinet';
-import { getRequestSummary } from './get-request-summary';
-import type { RequestCardSummary } from './types';
+import { getRequestSummary, type RequestSummary } from '@shared/helpers';
+import { useQuery } from '@tanstack/react-query';
 
 export function useOrdersPage() {
   const query = useQuery({
@@ -9,8 +8,7 @@ export function useOrdersPage() {
     queryFn: fetchCabinet,
   });
 
-  const requests: RequestCardSummary[] =
-    query.data?.requests.map(getRequestSummary) ?? [];
+  const requests: RequestSummary[] = query.data?.requests.map(getRequestSummary) ?? [];
 
   return {
     requests,

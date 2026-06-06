@@ -1,12 +1,12 @@
+import { TRACKER_STEP_KEYS, type TrackerStepIndex } from '@shared/helpers';
 import { useTranslation } from 'react-i18next';
 import { Stepper } from '@mantine/core';
-import { TRACKER_STEP_KEYS, type TrackerStepIndex } from '../model/constants';
 
-type RequestCardStatusTrackerProps = {
+type RequestStatusTrackerProps = {
   activeStep: TrackerStepIndex;
 };
 
-export default function RequestCardStatusTracker({ activeStep }: RequestCardStatusTrackerProps) {
+export default function RequestStatusTracker({ activeStep }: RequestStatusTrackerProps) {
   const { t } = useTranslation();
 
   return (
