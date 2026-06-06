@@ -1,0 +1,52 @@
+.stepperRoot {
+  overflow-x: auto;
+  padding-block: var(--mantine-spacing-xs);
+  --stepper-icon-color: var(--mantine-color-green-7);
+}
+
+.stepperStepLabel {
+  white-space: nowrap;
+  font-size: var(--mantine-font-size-xs);
+  color: var(--stepper-step-label-color, var(--mantine-color-gray-5));
+  font-weight: var(--stepper-step-label-weight, 400);
+}
+
+.stepperStepIcon {
+  background-color: var(--mantine-color-gray-0);
+  border-color: var(--mantine-color-gray-3);
+  color: var(--mantine-color-gray-5);
+}
+
+.stepperStepIcon[data-progress],
+.stepperStepIcon[data-completed] {
+  background-color: var(--mantine-color-green-0);
+  border-color: var(--mantine-color-green-4);
+  color: var(--mantine-color-green-7);
+}
+
+.stepperStepCompletedIcon {
+  color: var(--mantine-color-green-4);
+}
+
+.stepperStep[data-progress],
+.stepperStep[data-completed] {
+  --stepper-step-label-color: var(--mantine-color-green-7);
+  --stepper-step-label-weight: 500;
+}
+
+.stepperSeparator {
+  background-color: var(--mantine-color-gray-3);
+  height: 2px;
+  margin-inline: 0.25rem;
+}
+
+.stepperSeparator[data-active] {
+  background: repeating-linear-gradient(
+    to right,
+    var(--mantine-color-green-4) 0,
+    var(--mantine-color-green-4) 5px,
+    transparent 5px,
+    transparent 9px
+  );
+  height: 2px;
+}

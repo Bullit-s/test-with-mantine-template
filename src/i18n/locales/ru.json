@@ -10,5 +10,37 @@
   },
   "home": {
     "title": "Главная"
+  },
+  "orders": {
+    "title": "Активные заявки",
+    "empty": "Нет активных заявок",
+    "loadError": "Не удалось загрузить заявки",
+    "requestNumber": "№{{id}}",
+    "status": {
+      "processing": "Обработка",
+      "proposal": "КП",
+      "delivery": "Доставка",
+      "completed": "Готово"
+    },
+    "nextStep": {
+      "awaitingProposal": "Ожидается коммерческое предложение",
+      "awaitingInvoice": "Ожидается счёт",
+      "awaitingPayment": "Ожидается оплата",
+      "paymentReceivedPreparingOrder": "Оплата получена, готовим заказ",
+      "inTransit": "Товар в пути",
+      "requestCompleted": "Заявка завершена"
+    },
+    "money": {
+      "issued": "Выставлено",
+      "paid": "Оплачено",
+      "percent": "Оплата"
+    },
+    "products": {
+      "pending": "Состав заявки уточняется",
+      "item": "{{title}} × {{qty}} {{units}}"
+    },
+    "units": {
+      "pcs": "шт."
+    }
   }
 }

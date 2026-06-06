@@ -21,6 +21,7 @@ export default function AppLayout({ children }: AppLayoutProps) {
             <Text component={Link} to="/" size="lg" className={styles.logo}>
               {t('app.brand')}
             </Text>
+
             <Text component={Link} to="/" size="sm" c="dimmed" style={{ textDecoration: 'none' }}>
               {t('nav.requests')}
             </Text>

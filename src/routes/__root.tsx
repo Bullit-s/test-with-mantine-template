@@ -1,10 +1,12 @@
 import '@mantine/core/styles.css';
 
 import { AppLayout } from '@shared/components';
+import { queryClient } from '@shared/lib/query-client';
+import { QueryClientProvider } from '@tanstack/react-query';
 import { createRootRoute, Outlet } from '@tanstack/react-router';
 import { TanStackRouterDevtools } from '@tanstack/react-router-devtools';
 import { MantineProvider } from '@mantine/core';
-import { theme } from '../theme';
+import { theme } from '../styles/theme';
 
 export const Route = createRootRoute({
   component: RootLayout,
@@ -12,12 +14,14 @@ export const Route = createRootRoute({
 
 function RootLayout() {
   return (
-    <MantineProvider theme={theme}>
-      <AppLayout>
-        <Outlet />
-      </AppLayout>
+    <QueryClientProvider client={queryClient}>
+      <MantineProvider theme={theme}>
+        <AppLayout>
+          <Outlet />
+        </AppLayout>
 
-      {import.meta.env.DEV ? <TanStackRouterDevtools position="bottom-right" /> : null}
-    </MantineProvider>
+        {import.meta.env.DEV ? <TanStackRouterDevtools position="bottom-right" /> : null}
+      </MantineProvider>
+    </QueryClientProvider>
   );
 }

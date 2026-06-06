@@ -1,9 +1,9 @@
 import type { ReactNode } from 'react';
 import { render as testingLibraryRender } from '@testing-library/react';
-import { MantineProvider } from '@mantine/core';
 import { I18nextProvider } from 'react-i18next';
+import { MantineProvider } from '@mantine/core';
 import i18n from '@/i18n';
-import { theme } from '@/theme';
+import { theme } from '@/styles/theme';
 
 export function render(ui: ReactNode) {
   return testingLibraryRender(ui, {

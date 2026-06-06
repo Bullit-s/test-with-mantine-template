@@ -2,7 +2,7 @@ import '@mantine/core/styles.css';
 
 import type { Decorator } from '@storybook/react';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
-import { theme } from '@/theme';
+import { theme } from '@/styles/theme';
 
 export const parameters = {
   layout: 'fullscreen',
