@@ -1,12 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router';
-import { useTranslation } from 'react-i18next';
+import { OrdersPage } from '@/pages/orders';
 
 export const Route = createFileRoute('/')({
-  component: HomePage,
+  component: OrdersPage,
 });
-
-function HomePage() {
-  const { t } = useTranslation();
-
-  return <>{t('home.title')}</>;
-}

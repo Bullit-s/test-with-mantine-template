@@ -18,6 +18,8 @@
     "jsx": "react-jsx",
     "paths": {
       "@/*": ["./src/*"],
+      "@shared/*": ["./src/shared/*"],
+      "@pages/*": ["./src/pages/*"],
       "@test-utils": ["./test-utils"]
     }
   },
