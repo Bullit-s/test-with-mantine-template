@@ -1,0 +1,14 @@
+{
+  "app": {
+    "brand": "SnabSystem"
+  },
+  "nav": {
+    "requests": "Заявки"
+  },
+  "layout": {
+    "avatarFallback": "КЛ"
+  },
+  "home": {
+    "title": "Главная"
+  }
+}

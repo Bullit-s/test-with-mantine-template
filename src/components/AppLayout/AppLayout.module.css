@@ -1,0 +1,19 @@
+.header {
+  border-bottom: 1px solid var(--mantine-color-gray-2);
+  box-shadow: var(--mantine-shadow-sm);
+}
+
+.logo {
+  color: var(--mantine-color-blue-7);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: var(--mantine-color-blue-8);
+}
+
+.main {
+  background-color: var(--mantine-color-gray-0);
+  min-height: calc(100dvh - var(--app-shell-header-height));
+}
