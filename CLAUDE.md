@@ -4,9 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project state
 
-Specification-only repository — no application code, no `package.json`, no
-toolchain chosen yet. It currently holds a draft product conception, the backend
-GraphQL schema, query fragments, and example data.
+Frontend scaffolded from [bun-vite-template](https://github.com/LewisDamy/bun-vite-template)
+(Bun, Vite, React, Mantine, Vitest, Storybook). The repo also holds the draft
+product conception, backend GraphQL schema, query fragments, and example data.
+
+### Commands
+
+```bash
+bun install
+bun run dev
+# → http://localhost:5173 (если порт занят — смотрите URL в терминале)
+
+bun run build
+bun run test
+bun run lint
+bun run typecheck
+bun run validate
+bun run storybook
+# → http://localhost:6006
+```
 
 `docs/conception.md` (and its Russian twin `conception_ru.md`, same content) is a
 **draft conception, not a frozen spec**. It states product intent, explicitly
@@ -16,10 +32,9 @@ starting point to discuss with the product owner — not a checklist to implemen
 verbatim. Read it directly when you need detail; this file intentionally does
 not restate it.
 
-When the app is scaffolded, record the real build / lint / test commands here.
-
 ## Repository layout
 
+- `src/` — React application (from bun-vite-template).
 - `docs/conception.md` / `conception_ru.md` — the draft conception (EN / RU).
 - `schema/ent.graphql` — backend GraphQL schema (gqlgen-generated, large; a
   read-only reference for field types). `schema/orm.graphql` — hand-written
