@@ -1,15 +1,147 @@
 {
   "app": {
-    "brand": "SnabSystem"
+    "brand": "Система снабжения"
   },
   "nav": {
     "requests": "Заявки"
   },
-  "layout": {
-    "avatarFallback": "КЛ"
-  },
   "home": {
-    "title": "Главная"
+    "title": "Главная",
+    "requests": "Заявки",
+    "empty": "Нет заявок по выбранному фильтру",
+    "stages": {
+      "all": "Все заявки",
+      "processing": "Обработка",
+      "clarification": "Уточнение",
+      "proposalSent": "Отправлено КП",
+      "toPay": "К оплате",
+      "inTransit": "В пути",
+      "shipped": "Отгружено",
+      "cancelled": "Отмена"
+    },
+    "filters": {
+      "button": "Фильтры"
+    },
+    "status": {
+      "forming": "Формируется",
+      "proposalPreparing": "Подготовка КП",
+      "clarificationToClient": "Уточнение",
+      "clarificationToSupplier": "Уточнение у поставщика",
+      "proposalSent": "Отправлено КП",
+      "invoiceSent": "Отправлен счёт",
+      "invoicePaid": "Счёт оплачен",
+      "ordered": "Заказан",
+      "partiallyInTransit": "Частично в пути",
+      "inTransit": "В пути",
+      "partiallyShipped": "Частично отгружен",
+      "shipped": "Отгружен",
+      "cancelled": "Отменена"
+    },
+    "statusNote": {
+      "forming": "формируем заявку",
+      "proposalPreparing": "готовим КП",
+      "clarificationToClient": "ждём уточнение от вас",
+      "clarificationToSupplier": "уточняем у поставщика",
+      "proposalSent": "КП отправлено, ждём решение",
+      "invoiceSent": "ожидается оплата",
+      "invoicePaid": "счёт оплачен",
+      "ordered": "заказали у поставщика",
+      "partiallyInTransit": "часть в пути",
+      "inTransit": "товар в пути",
+      "partiallyShipped": "часть отгружена",
+      "shipped": "отгружено",
+      "cancelled": "заявка отменена"
+    },
+    "searchRequest": "Поиск заявки",
+    "table": {
+      "headers": {
+        "request": "Заявка",
+        "proposal": "КП",
+        "proposalPdf": "КП / PDF",
+        "product": "Товар",
+        "brand": "Бренд",
+        "qty": "Кол-во",
+        "sum": "Сумма",
+        "shippingTerm": "Срок поставки",
+        "status": "Статус"
+      },
+      "shippingRange": "{{min}}–{{max}} недель",
+      "lineItem": "{{title}} × {{qty}}"
+    },
+    "footer": {
+      "summary": "Итого: {{count}} заявок · {{stage}} · {{sum}}"
+    },
+    "overview": {
+      "title": "Обзор",
+      "kpi": {
+        "title": "Показатели",
+        "issued": "Выставлено",
+        "paid": "Оплачено",
+        "duePay": "К оплате"
+      },
+      "activity": {
+        "title": "Последние изменения",
+        "empty": "Пока нет активности"
+      },
+      "deliveries": {
+        "title": "Ближайшие поставки",
+        "empty": "Нет предстоящих поставок",
+        "today": "сегодня",
+        "daysLeft_one": "осталось {{count}} день",
+        "daysLeft_few": "осталось {{count}} дня",
+        "daysLeft_many": "осталось {{count}} дней",
+        "daysLeft_other": "осталось {{count}} дня",
+        "overdue_one": "просрочено на {{count}} день",
+        "overdue_few": "просрочено на {{count}} дня",
+        "overdue_many": "просрочено на {{count}} дней",
+        "overdue_other": "просрочено на {{count}} дня"
+      },
+      "managers": {
+        "title": "Ваши менеджеры",
+        "activeRequests_one": "{{count}} заявка в работе",
+        "activeRequests_few": "{{count}} заявки в работе",
+        "activeRequests_many": "{{count}} заявок в работе",
+        "activeRequests_other": "{{count}} заявки в работе"
+      }
+    }
+  },
+  "header": {
+    "menu": "Меню",
+    "searchPlaceholder": "Поиск...",
+    "searchTooltip": "Поиск по заявкам: договор, товар, бренд...",
+    "nav": {
+      "proposals": "КП",
+      "orders": "Заказы",
+      "documents": "Документы",
+      "chat": "Чат"
+    },
+    "contact": {
+      "trigger": "Связь",
+      "callManager": "Вызвать менеджера",
+      "chat": "Написать в чат"
+    },
+    "notifications": {
+      "empty": "Здесь появятся ваши уведомления по заявкам, КП и документам",
+      "settings": "Настройки"
+    },
+    "profile": {
+      "profile": "Профиль",
+      "documents": "Документы",
+      "support": "Поддержка",
+      "logout": "Выйти"
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} {{brand}}. Все права защищены.",
+    "supportPhone": "8 800 500-21-04",
+    "supportEmail": "info@snabsystem.ru"
+  },
+  "common": {
+    "daysAgo_one": "{{count}} день назад",
+    "daysAgo_few": "{{count}} дня назад",
+    "daysAgo_many": "{{count}} дней назад",
+    "daysAgo_other": "{{count}} дня назад",
+    "comingSoon": "Скоро"
   },
   "orders": {
     "title": "Активные заявки",

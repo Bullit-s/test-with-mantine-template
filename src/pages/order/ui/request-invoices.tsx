@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import { useTranslation } from 'react-i18next';
-import { Collapse, Stack, Text, UnstyledButton } from '@mantine/core';
 import {
   getActiveInvoiceProducts,
   getInvoiceCurrency,
@@ -8,6 +6,8 @@ import {
   type Invoice,
 } from '@shared/api/cabinet';
 import { formatMoney, formatUnixDate } from '@shared/lib/format';
+import { useTranslation } from 'react-i18next';
+import { Collapse, Stack, Text, UnstyledButton } from '@mantine/core';
 import DocumentCard from './document-card';
 
 type RequestInvoicesProps = {
@@ -67,7 +67,7 @@ function InvoiceCard({ invoice }: { invoice: Invoice }) {
               </Text>
             </UnstyledButton>
 
-            <Collapse in={opened}>
+            <Collapse expanded={opened}>
               <Stack gap="xs">
                 {products.map((product) => (
                   <Text key={product.id} size="sm">

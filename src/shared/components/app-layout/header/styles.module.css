@@ -1,0 +1,6 @@
+.plainLink {
+  display: flex;
+  align-items: center;
+  gap: var(--mantine-spacing-xs);
+  text-decoration: none;
+}

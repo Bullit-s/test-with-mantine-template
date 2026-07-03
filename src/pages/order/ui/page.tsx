@@ -34,7 +34,7 @@ export default function OrderPage() {
 
   return (
     <Stack gap="lg">
-      <Anchor component={Link} to="/" size="sm">
+      <Anchor component={Link} to="/requests" size="sm">
         {t('request.back')}
       </Anchor>
 

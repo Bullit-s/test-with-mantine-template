@@ -237,6 +237,891 @@
       "invoices": [],
       "orders": [],
       "upds": []
+    },
+
+    {
+      "id": "185328",
+      "created": 1781568000,
+      "changed": 1782864000,
+      "contractNumber": "",
+      "contractDate": 0,
+      "contractSpecNumber": "",
+      "contractSpecDate": 0,
+      "customerDesiredPrice": 0,
+      "isCancelled": false,
+
+      "manager": { "id": "manager-2", "name": "Ольга Кузнецова", "email": "o.kuznetsova@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+      "customerAccount": null,
+
+      "productsRequested": [
+        {
+          "id": "p-185328",
+          "qty": 4,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "Siemens S7-1200 CPU 1214C",
+          "brandterm": { "name": "Siemens" },
+          "categoryterm": { "name": "PLC controllers" }
+        }
+      ],
+
+      "products": [],
+      "proposals": [],
+      "invoices": [],
+      "orders": [],
+      "upds": []
+    },
+
+    {
+      "id": "185329",
+      "created": 1780963200,
+      "changed": 1782259200,
+      "contractNumber": "",
+      "contractDate": 0,
+      "contractSpecNumber": "",
+      "contractSpecDate": 0,
+      "customerDesiredPrice": 0,
+      "isCancelled": false,
+
+      "manager": { "id": "manager-3", "name": "Сергей Иванов", "email": "s.ivanov@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+      "customerAccount": null,
+
+      "productsRequested": [
+        {
+          "id": "p-185329",
+          "qty": 12,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "Festo DSBC-32-100",
+          "brandterm": { "name": "Festo" },
+          "categoryterm": { "name": "Pneumatic cylinders" }
+        }
+      ],
+
+      "products": [],
+      "proposals": [],
+      "invoices": [],
+      "orders": [],
+      "upds": []
+    },
+
+    {
+      "id": "185330",
+      "created": 1781395200,
+      "changed": 1782691200,
+      "contractNumber": "SN-185330",
+      "contractDate": 1781395200,
+      "contractSpecNumber": "1",
+      "contractSpecDate": 1781395200,
+      "customerDesiredPrice": 0,
+      "isCancelled": false,
+
+      "manager": { "id": "manager-1", "name": "Анна Петрова", "email": "a.petrova@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+      "customerAccount": null,
+
+      "productsRequested": [
+        {
+          "id": "p-185330-1",
+          "qty": 4,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "SEW Eurodrive R47",
+          "brandterm": { "name": "SEW Eurodrive" },
+          "categoryterm": { "name": "Motor-reducers" }
+        },
+        {
+          "id": "p-185330-2",
+          "qty": 2,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "SEW Eurodrive K37",
+          "brandterm": { "name": "SEW Eurodrive" },
+          "categoryterm": { "name": "Motor-reducers" }
+        }
+      ],
+
+      "products": [
+        {
+          "id": "p-185330-1",
+          "changed": 1782691200,
+          "qty": 4,
+          "qtyUnits": "pcs",
+          "sku": "R47",
+          "model": "SEW Eurodrive R47",
+          "shippingTime": "8-11 weeks",
+          "shippingMin": 8,
+          "shippingMax": 11,
+          "weight": 12.5,
+          "status": "ok",
+          "disabled": false,
+          "brandterm": { "name": "SEW Eurodrive" },
+          "categoryterm": { "name": "Motor-reducers" }
+        },
+        {
+          "id": "p-185330-2",
+          "changed": 1782691200,
+          "qty": 2,
+          "qtyUnits": "pcs",
+          "sku": "K37",
+          "model": "SEW Eurodrive K37",
+          "shippingTime": "8-11 weeks",
+          "shippingMin": 8,
+          "shippingMax": 11,
+          "weight": 9.2,
+          "status": "ok",
+          "disabled": false,
+          "brandterm": { "name": "SEW Eurodrive" },
+          "categoryterm": { "name": "Motor-reducers" }
+        }
+      ],
+
+      "proposals": [],
+      "invoices": [],
+      "orders": [],
+      "upds": []
+    },
+
+    {
+      "id": "185331",
+      "created": 1780617600,
+      "changed": 1781913600,
+      "contractNumber": "SN-185331",
+      "contractDate": 1780617600,
+      "contractSpecNumber": "1",
+      "contractSpecDate": 1780617600,
+      "customerDesiredPrice": 0,
+      "isCancelled": false,
+
+      "manager": { "id": "manager-2", "name": "Ольга Кузнецова", "email": "o.kuznetsova@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+      "customerAccount": null,
+
+      "productsRequested": [
+        {
+          "id": "p-185331",
+          "qty": 3,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "Beckhoff C6015",
+          "brandterm": { "name": "Beckhoff" },
+          "categoryterm": { "name": "Industrial PCs" }
+        }
+      ],
+
+      "products": [
+        {
+          "id": "p-185331",
+          "changed": 1781913600,
+          "qty": 3,
+          "qtyUnits": "pcs",
+          "sku": "C6015",
+          "model": "Beckhoff C6015",
+          "shippingTime": "6-8 weeks",
+          "shippingMin": 6,
+          "shippingMax": 8,
+          "weight": 3.1,
+          "status": "ok",
+          "disabled": false,
+          "brandterm": { "name": "Beckhoff" },
+          "categoryterm": { "name": "Industrial PCs" }
+        }
+      ],
+
+      "proposals": [],
+      "invoices": [],
+      "orders": [],
+      "upds": []
+    },
+
+    {
+      "id": "185332",
+      "created": 1780099200,
+      "changed": 1781395200,
+      "contractNumber": "SN-185332",
+      "contractDate": 1780099200,
+      "contractSpecNumber": "1",
+      "contractSpecDate": 1780099200,
+      "customerDesiredPrice": 210000,
+      "isCancelled": false,
+
+      "manager": { "id": "manager-3", "name": "Сергей Иванов", "email": "s.ivanov@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+
+      "customerAccount": {
+        "id": "77001",
+        "buyer": "Technosnab LLC",
+        "inn": "7701234567",
+        "kpp": "770101001",
+        "ogrn": "1127746000000",
+        "okpo": "12345678",
+        "rs": "40702810000000000001",
+        "ks": "30101810400000000225",
+        "bik": "044525225",
+        "bank": "Sberbank PJSC",
+        "formalAddress": "Moscow, Lenina St., 1",
+        "postalAddress": "Moscow, Lenina St., 1",
+        "shippingAddress": "Moscow, warehouse, Varshavskoe hwy 100",
+        "actualAddress": "Moscow, Lenina St., 1",
+        "invoicePrepaidRequired": 50,
+        "noContractRequired": 0,
+        "phone": "+74951234567",
+        "customerName": "Ivanov S.S.",
+        "customerPosition": "Head of Procurement"
+      },
+
+      "productsRequested": [
+        {
+          "id": "p-185332",
+          "qty": 5,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "Mitsubishi FR-D720",
+          "brandterm": { "name": "Mitsubishi" },
+          "categoryterm": { "name": "Variable frequency drives" }
+        }
+      ],
+
+      "products": [
+        {
+          "id": "p-185332",
+          "changed": 1781395200,
+          "qty": 5,
+          "qtyUnits": "pcs",
+          "sku": "FR-D720",
+          "model": "Mitsubishi FR-D720",
+          "shippingTime": "4-5 weeks",
+          "shippingMin": 4,
+          "shippingMax": 5,
+          "weight": 1.8,
+          "status": "ok",
+          "disabled": false,
+          "brandterm": { "name": "Mitsubishi" },
+          "categoryterm": { "name": "Variable frequency drives" }
+        }
+      ],
+
+      "proposals": [],
+
+      "invoices": [
+        {
+          "id": "inv-185332",
+          "created": 1780531200,
+          "changed": 1780531200,
+          "invoiceNumber": "СЧ-185332",
+          "title": "Счёт СЧ-185332",
+          "actuality": "Счёт выставлен, ожидается оплата",
+          "shippingTime": "4-5 недель с даты оплаты",
+          "prepaid": 0,
+          "canceled": 0,
+          "firstPaymentCreated": 0,
+          "paid": 0,
+          "paidInput": 0,
+          "companyDetails": "ООО «Снабсистем», ИНН 7700000000, р/с 40702810000000000001",
+          "invoiceProducts": [
+            {
+              "id": "ip-185332",
+              "created": 1780531200,
+              "active": true,
+              "lineNum": 1,
+              "title": "Mitsubishi FR-D720 частотный преобразователь",
+              "qty": 5,
+              "currency": "RUB",
+              "vat": 20,
+              "unit": 42000,
+              "unitNoVat": 35000,
+              "line": 210000,
+              "lineNoVat": 175000
+            }
+          ],
+          "invoicePayments": []
+        }
+      ],
+
+      "orders": [],
+      "upds": []
+    },
+
+    {
+      "id": "185333",
+      "created": 1781222400,
+      "changed": 1782518400,
+      "contractNumber": "SN-185333",
+      "contractDate": 1781222400,
+      "contractSpecNumber": "1",
+      "contractSpecDate": 1781222400,
+      "customerDesiredPrice": 196000,
+      "isCancelled": false,
+
+      "manager": { "id": "manager-1", "name": "Анна Петрова", "email": "a.petrova@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+
+      "customerAccount": {
+        "id": "77001",
+        "buyer": "Technosnab LLC",
+        "inn": "7701234567",
+        "kpp": "770101001",
+        "ogrn": "1127746000000",
+        "okpo": "12345678",
+        "rs": "40702810000000000001",
+        "ks": "30101810400000000225",
+        "bik": "044525225",
+        "bank": "Sberbank PJSC",
+        "formalAddress": "Moscow, Lenina St., 1",
+        "postalAddress": "Moscow, Lenina St., 1",
+        "shippingAddress": "Moscow, warehouse, Varshavskoe hwy 100",
+        "actualAddress": "Moscow, Lenina St., 1",
+        "invoicePrepaidRequired": 50,
+        "noContractRequired": 0,
+        "phone": "+74951234567",
+        "customerName": "Ivanov S.S.",
+        "customerPosition": "Head of Procurement"
+      },
+
+      "productsRequested": [
+        {
+          "id": "p-185333",
+          "qty": 2,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "Bosch Rexroth 4WE6",
+          "brandterm": { "name": "Bosch Rexroth" },
+          "categoryterm": { "name": "Hydraulic distributors" }
+        }
+      ],
+
+      "products": [
+        {
+          "id": "p-185333",
+          "changed": 1782518400,
+          "qty": 2,
+          "qtyUnits": "pcs",
+          "sku": "4WE6",
+          "model": "Bosch Rexroth 4WE6",
+          "shippingTime": "3-4 weeks",
+          "shippingMin": 3,
+          "shippingMax": 4,
+          "weight": 4.4,
+          "status": "ok",
+          "disabled": false,
+          "brandterm": { "name": "Bosch Rexroth" },
+          "categoryterm": { "name": "Hydraulic distributors" }
+        }
+      ],
+
+      "proposals": [],
+
+      "invoices": [
+        {
+          "id": "inv-185333",
+          "created": 1781654400,
+          "changed": 1781827200,
+          "invoiceNumber": "СЧ-185333",
+          "title": "Счёт СЧ-185333",
+          "actuality": "Счёт оплачен полностью",
+          "shippingTime": "3-4 недели с даты оплаты",
+          "prepaid": 0,
+          "canceled": 0,
+          "firstPaymentCreated": 1781827200,
+          "paid": 100,
+          "paidInput": 196000,
+          "companyDetails": "ООО «Снабсистем», ИНН 7700000000, р/с 40702810000000000001",
+          "invoiceProducts": [
+            {
+              "id": "ip-185333",
+              "created": 1781654400,
+              "active": true,
+              "lineNum": 1,
+              "title": "Bosch Rexroth 4WE6 гидрораспределитель",
+              "qty": 2,
+              "currency": "RUB",
+              "vat": 20,
+              "unit": 98000,
+              "unitNoVat": 81666.67,
+              "line": 196000,
+              "lineNoVat": 163333.33
+            }
+          ],
+          "invoicePayments": [
+            {
+              "id": "pay-185333",
+              "created": 1781827200,
+              "changed": 1781827200,
+              "paidInput": 196000,
+              "paidPercent": 100,
+              "paymentDate": 1781827200,
+              "transferDate": 1781827200,
+              "transferNumber": "P-185333"
+            }
+          ]
+        }
+      ],
+
+      "orders": [],
+      "upds": []
+    },
+
+    {
+      "id": "185334",
+      "created": 1779494400,
+      "changed": 1780790400,
+      "contractNumber": "SN-185334",
+      "contractDate": 1779494400,
+      "contractSpecNumber": "1",
+      "contractSpecDate": 1779494400,
+      "customerDesiredPrice": 130600,
+      "isCancelled": false,
+
+      "manager": { "id": "manager-2", "name": "Ольга Кузнецова", "email": "o.kuznetsova@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+
+      "customerAccount": {
+        "id": "77001",
+        "buyer": "Technosnab LLC",
+        "inn": "7701234567",
+        "kpp": "770101001",
+        "ogrn": "1127746000000",
+        "okpo": "12345678",
+        "rs": "40702810000000000001",
+        "ks": "30101810400000000225",
+        "bik": "044525225",
+        "bank": "Sberbank PJSC",
+        "formalAddress": "Moscow, Lenina St., 1",
+        "postalAddress": "Moscow, Lenina St., 1",
+        "shippingAddress": "Moscow, warehouse, Varshavskoe hwy 100",
+        "actualAddress": "Moscow, Lenina St., 1",
+        "invoicePrepaidRequired": 50,
+        "noContractRequired": 0,
+        "phone": "+74951234567",
+        "customerName": "Ivanov S.S.",
+        "customerPosition": "Head of Procurement"
+      },
+
+      "productsRequested": [
+        {
+          "id": "p-185334",
+          "qty": 20,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "IFM PN7097",
+          "brandterm": { "name": "IFM" },
+          "categoryterm": { "name": "Pressure sensors" }
+        }
+      ],
+
+      "products": [
+        {
+          "id": "p-185334",
+          "changed": 1780790400,
+          "qty": 20,
+          "qtyUnits": "pcs",
+          "sku": "PN7097",
+          "model": "IFM PN7097",
+          "shippingTime": "2-3 weeks",
+          "shippingMin": 2,
+          "shippingMax": 3,
+          "weight": 0.3,
+          "status": "ok",
+          "disabled": false,
+          "brandterm": { "name": "IFM" },
+          "categoryterm": { "name": "Pressure sensors" }
+        }
+      ],
+
+      "proposals": [],
+
+      "invoices": [
+        {
+          "id": "inv-185334",
+          "created": 1779926400,
+          "changed": 1780099200,
+          "invoiceNumber": "СЧ-185334",
+          "title": "Счёт СЧ-185334",
+          "actuality": "Счёт оплачен полностью",
+          "shippingTime": "2-3 недели с даты оплаты",
+          "prepaid": 0,
+          "canceled": 0,
+          "firstPaymentCreated": 1780099200,
+          "paid": 100,
+          "paidInput": 130600,
+          "companyDetails": "ООО «Снабсистем», ИНН 7700000000, р/с 40702810000000000001",
+          "invoiceProducts": [
+            {
+              "id": "ip-185334",
+              "created": 1779926400,
+              "active": true,
+              "lineNum": 1,
+              "title": "IFM PN7097 датчик давления",
+              "qty": 20,
+              "currency": "RUB",
+              "vat": 20,
+              "unit": 6530,
+              "unitNoVat": 5441.67,
+              "line": 130600,
+              "lineNoVat": 108833.33
+            }
+          ],
+          "invoicePayments": [
+            {
+              "id": "pay-185334",
+              "created": 1780099200,
+              "changed": 1780099200,
+              "paidInput": 130600,
+              "paidPercent": 100,
+              "paymentDate": 1780099200,
+              "transferDate": 1780099200,
+              "transferNumber": "P-185334"
+            }
+          ]
+        }
+      ],
+
+      "orders": [
+        {
+          "id": "ord-185334",
+          "created": 1780272000,
+          "changed": 1780272000,
+          "postDate": 1780272000,
+          "received": "none",
+          "status": 6,
+          "products": [ { "id": "p-185334", "shippingMin": 2, "shippingMax": 3 } ],
+          "shippings": []
+        }
+      ],
+
+      "upds": []
+    },
+
+    {
+      "id": "185335",
+      "created": 1779062400,
+      "changed": 1780358400,
+      "contractNumber": "SN-185335",
+      "contractDate": 1779062400,
+      "contractSpecNumber": "1",
+      "contractSpecDate": 1779062400,
+      "customerDesiredPrice": 126450,
+      "isCancelled": false,
+
+      "manager": { "id": "manager-3", "name": "Сергей Иванов", "email": "s.ivanov@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+
+      "customerAccount": {
+        "id": "77001",
+        "buyer": "Technosnab LLC",
+        "inn": "7701234567",
+        "kpp": "770101001",
+        "ogrn": "1127746000000",
+        "okpo": "12345678",
+        "rs": "40702810000000000001",
+        "ks": "30101810400000000225",
+        "bik": "044525225",
+        "bank": "Sberbank PJSC",
+        "formalAddress": "Moscow, Lenina St., 1",
+        "postalAddress": "Moscow, Lenina St., 1",
+        "shippingAddress": "Moscow, warehouse, Varshavskoe hwy 100",
+        "actualAddress": "Moscow, Lenina St., 1",
+        "invoicePrepaidRequired": 50,
+        "noContractRequired": 0,
+        "phone": "+74951234567",
+        "customerName": "Ivanov S.S.",
+        "customerPosition": "Head of Procurement"
+      },
+
+      "productsRequested": [
+        {
+          "id": "p-185335",
+          "qty": 6,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "Pilz PNOZ s3",
+          "brandterm": { "name": "Pilz" },
+          "categoryterm": { "name": "Safety relays" }
+        }
+      ],
+
+      "products": [
+        {
+          "id": "p-185335",
+          "changed": 1780358400,
+          "qty": 6,
+          "qtyUnits": "pcs",
+          "sku": "PNOZ-s3",
+          "model": "Pilz PNOZ s3",
+          "shippingTime": "3-5 weeks",
+          "shippingMin": 3,
+          "shippingMax": 5,
+          "weight": 0.5,
+          "status": "ok",
+          "disabled": false,
+          "brandterm": { "name": "Pilz" },
+          "categoryterm": { "name": "Safety relays" }
+        }
+      ],
+
+      "proposals": [],
+
+      "invoices": [
+        {
+          "id": "inv-185335",
+          "created": 1779494400,
+          "changed": 1779667200,
+          "invoiceNumber": "СЧ-185335",
+          "title": "Счёт СЧ-185335",
+          "actuality": "Счёт оплачен полностью",
+          "shippingTime": "3-5 недель с даты оплаты",
+          "prepaid": 0,
+          "canceled": 0,
+          "firstPaymentCreated": 1779667200,
+          "paid": 100,
+          "paidInput": 126450,
+          "companyDetails": "ООО «Снабсистем», ИНН 7700000000, р/с 40702810000000000001",
+          "invoiceProducts": [
+            {
+              "id": "ip-185335",
+              "created": 1779494400,
+              "active": true,
+              "lineNum": 1,
+              "title": "Pilz PNOZ s3 реле безопасности",
+              "qty": 6,
+              "currency": "RUB",
+              "vat": 20,
+              "unit": 21075,
+              "unitNoVat": 17562.5,
+              "line": 126450,
+              "lineNoVat": 105375
+            }
+          ],
+          "invoicePayments": [
+            {
+              "id": "pay-185335",
+              "created": 1779667200,
+              "changed": 1779667200,
+              "paidInput": 126450,
+              "paidPercent": 100,
+              "paymentDate": 1779667200,
+              "transferDate": 1779667200,
+              "transferNumber": "P-185335"
+            }
+          ]
+        }
+      ],
+
+      "orders": [
+        {
+          "id": "ord-185335",
+          "created": 1779840000,
+          "changed": 1780185600,
+          "postDate": 1779840000,
+          "received": "partial",
+          "status": 6,
+          "products": [ { "id": "p-185335", "shippingMin": 3, "shippingMax": 5 } ],
+          "shippings": [
+            {
+              "id": "sh-185335",
+              "created": 1780012800,
+              "changed": 1780185600,
+              "received": 0,
+              "sentToClient": 0,
+              "productsIds": "p-185335",
+              "shippingProducts": [ { "id": "shp-185335", "productID": "p-185335" } ],
+              "shippingGroup": {
+                "id": "sg-185335",
+                "created": 1780012800,
+                "postDate": 1780185600,
+                "documentsDate": 0,
+                "gtd": ""
+              }
+            }
+          ]
+        }
+      ],
+
+      "upds": []
+    },
+
+    {
+      "id": "185336",
+      "created": 1778630400,
+      "changed": 1779926400,
+      "contractNumber": "SN-185336",
+      "contractDate": 1778630400,
+      "contractSpecNumber": "1",
+      "contractSpecDate": 1778630400,
+      "customerDesiredPrice": 92928,
+      "isCancelled": false,
+
+      "manager": { "id": "manager-1", "name": "Анна Петрова", "email": "a.petrova@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+
+      "customerAccount": {
+        "id": "77001",
+        "buyer": "Technosnab LLC",
+        "inn": "7701234567",
+        "kpp": "770101001",
+        "ogrn": "1127746000000",
+        "okpo": "12345678",
+        "rs": "40702810000000000001",
+        "ks": "30101810400000000225",
+        "bik": "044525225",
+        "bank": "Sberbank PJSC",
+        "formalAddress": "Moscow, Lenina St., 1",
+        "postalAddress": "Moscow, Lenina St., 1",
+        "shippingAddress": "Moscow, warehouse, Varshavskoe hwy 100",
+        "actualAddress": "Moscow, Lenina St., 1",
+        "invoicePrepaidRequired": 50,
+        "noContractRequired": 0,
+        "phone": "+74951234567",
+        "customerName": "Ivanov S.S.",
+        "customerPosition": "Head of Procurement"
+      },
+
+      "productsRequested": [
+        {
+          "id": "p-185336",
+          "qty": 8,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "Pepperl+Fuchs ENA58IL",
+          "brandterm": { "name": "Pepperl+Fuchs" },
+          "categoryterm": { "name": "Encoders" }
+        }
+      ],
+
+      "products": [
+        {
+          "id": "p-185336",
+          "changed": 1779926400,
+          "qty": 8,
+          "qtyUnits": "pcs",
+          "sku": "ENA58IL",
+          "model": "Pepperl+Fuchs ENA58IL",
+          "shippingTime": "3-4 weeks",
+          "shippingMin": 3,
+          "shippingMax": 4,
+          "weight": 0.4,
+          "status": "ok",
+          "disabled": false,
+          "brandterm": { "name": "Pepperl+Fuchs" },
+          "categoryterm": { "name": "Encoders" }
+        }
+      ],
+
+      "proposals": [],
+
+      "invoices": [
+        {
+          "id": "inv-185336",
+          "created": 1779062400,
+          "changed": 1779235200,
+          "invoiceNumber": "СЧ-185336",
+          "title": "Счёт СЧ-185336",
+          "actuality": "Счёт оплачен полностью",
+          "shippingTime": "3-4 недели с даты оплаты",
+          "prepaid": 0,
+          "canceled": 0,
+          "firstPaymentCreated": 1779235200,
+          "paid": 100,
+          "paidInput": 92928,
+          "companyDetails": "ООО «Снабсистем», ИНН 7700000000, р/с 40702810000000000001",
+          "invoiceProducts": [
+            {
+              "id": "ip-185336",
+              "created": 1779062400,
+              "active": true,
+              "lineNum": 1,
+              "title": "Pepperl+Fuchs ENA58IL энкодер",
+              "qty": 8,
+              "currency": "RUB",
+              "vat": 20,
+              "unit": 11616,
+              "unitNoVat": 9680,
+              "line": 92928,
+              "lineNoVat": 77440
+            }
+          ],
+          "invoicePayments": [
+            {
+              "id": "pay-185336",
+              "created": 1779235200,
+              "changed": 1779235200,
+              "paidInput": 92928,
+              "paidPercent": 100,
+              "paymentDate": 1779235200,
+              "transferDate": 1779235200,
+              "transferNumber": "P-185336"
+            }
+          ]
+        }
+      ],
+
+      "orders": [
+        {
+          "id": "ord-185336",
+          "created": 1779408000,
+          "changed": 1779753600,
+          "postDate": 1779408000,
+          "received": "none",
+          "status": 6,
+          "products": [ { "id": "p-185336", "shippingMin": 3, "shippingMax": 4 } ],
+          "shippings": [
+            {
+              "id": "sh-185336",
+              "created": 1779580800,
+              "changed": 1779753600,
+              "received": 0,
+              "sentToClient": 1779753600,
+              "productsIds": "p-185336",
+              "shippingProducts": [ { "id": "shp-185336", "productID": "p-185336" } ],
+              "shippingGroup": {
+                "id": "sg-185336",
+                "created": 1779580800,
+                "postDate": 1779753600,
+                "documentsDate": 0,
+                "gtd": "10013160/150526/0098765"
+              }
+            }
+          ]
+        }
+      ],
+
+      "upds": []
+    },
+
+    {
+      "id": "185337",
+      "created": 1778198400,
+      "changed": 1779494400,
+      "contractNumber": "SN-185337",
+      "contractDate": 0,
+      "contractSpecNumber": "",
+      "contractSpecDate": 0,
+      "customerDesiredPrice": 0,
+      "isCancelled": true,
+
+      "manager": { "id": "manager-2", "name": "Ольга Кузнецова", "email": "o.kuznetsova@snabsystem.ru", "avatar": "" },
+      "company": { "id": "1", "name": "Snabsystem LLC", "phone": "+74959999999" },
+      "customerAccount": null,
+
+      "productsRequested": [
+        {
+          "id": "p-185337",
+          "qty": 1,
+          "qtyUnits": "pcs",
+          "sku": "",
+          "model": "Hawe Hydraulik R4",
+          "brandterm": { "name": "Hawe Hydraulik" },
+          "categoryterm": { "name": "Pumps" }
+        }
+      ],
+
+      "products": [],
+      "proposals": [],
+      "invoices": [],
+      "orders": [],
+      "upds": []
     }
   ]
 }

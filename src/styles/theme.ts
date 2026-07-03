@@ -1,5 +1,5 @@
 import { createTheme, Stepper } from '@mantine/core';
-import classes from './theme.module.css';
+import styles from './theme.module.css';
 
 export const theme = createTheme({
   components: {
@@ -9,12 +9,12 @@ export const theme = createTheme({
         size: 'sm',
       },
       classNames: {
-        root: classes.stepperRoot,
-        step: classes.stepperStep,
-        stepIcon: classes.stepperStepIcon,
-        stepCompletedIcon: classes.stepperStepCompletedIcon,
-        stepLabel: classes.stepperStepLabel,
-        separator: classes.stepperSeparator,
+        root: styles.stepperRoot,
+        step: styles.stepperStep,
+        stepIcon: styles.stepperStepIcon,
+        stepCompletedIcon: styles.stepperStepCompletedIcon,
+        stepLabel: styles.stepperStepLabel,
+        separator: styles.stepperSeparator,
       },
     }),
   },

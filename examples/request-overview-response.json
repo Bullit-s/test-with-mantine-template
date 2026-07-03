@@ -1,0 +1,325 @@
+{
+  "customer": {
+    "name": "Малых Кирилл Александрович",
+    "company": "АО «АЭРОПОРТ КОЛЬЦОВО»"
+  },
+  "requests": [
+    {
+      "id": "185940",
+      "contractNumber": "",
+      "changed": 1782777600,
+      "customerStatus": "forming",
+      "isCancelled": false,
+      "unread": true,
+      "managerName": "Анна Петрова",
+      "brand": "SICK",
+      "product": "SICK W4-3",
+      "qty": 10,
+      "qtyUnits": "pcs",
+      "shippingMin": 3,
+      "shippingMax": 5,
+      "proposalNumber": "",
+      "proposalLines": [],
+      "invoiceTotalRub": null,
+      "invoicePaidPercent": null
+    },
+    {
+      "id": "185328",
+      "contractNumber": "",
+      "changed": 1782864000,
+      "customerStatus": "clarificationToClient",
+      "isCancelled": false,
+      "unread": true,
+      "managerName": "Ольга Кузнецова",
+      "brand": "Siemens",
+      "product": "Siemens S7-1200 CPU 1214C",
+      "qty": 4,
+      "qtyUnits": "pcs",
+      "shippingMin": 6,
+      "shippingMax": 9,
+      "proposalNumber": "",
+      "proposalLines": [],
+      "invoiceTotalRub": null,
+      "invoicePaidPercent": null
+    },
+    {
+      "id": "185329",
+      "contractNumber": "",
+      "changed": 1782259200,
+      "customerStatus": "proposalPreparing",
+      "isCancelled": false,
+      "unread": true,
+      "managerName": "Сергей Иванов",
+      "brand": "Festo",
+      "product": "Festo DSBC-32-100",
+      "qty": 12,
+      "qtyUnits": "pcs",
+      "shippingMin": 5,
+      "shippingMax": 7,
+      "proposalNumber": "",
+      "proposalLines": [],
+      "invoiceTotalRub": null,
+      "invoicePaidPercent": null
+    },
+    {
+      "id": "185330",
+      "contractNumber": "SN-185330",
+      "changed": 1782691200,
+      "customerStatus": "proposalSent",
+      "isCancelled": false,
+      "unread": true,
+      "managerName": "Анна Петрова",
+      "brand": "SEW Eurodrive",
+      "product": "SEW Eurodrive R47 / K37",
+      "qty": 6,
+      "qtyUnits": "pcs",
+      "shippingMin": 8,
+      "shippingMax": 11,
+      "proposalNumber": "КП-185330",
+      "proposalLines": [
+        {
+          "id": "pp-185330-1",
+          "title": "SEW Eurodrive R47 мотор-редуктор",
+          "qty": 4,
+          "currency": "EUR",
+          "unit": 892.5,
+          "line": 3570.0
+        },
+        {
+          "id": "pp-185330-2",
+          "title": "SEW Eurodrive K37 мотор-редуктор",
+          "qty": 2,
+          "currency": "EUR",
+          "unit": 1243.49,
+          "line": 2486.98
+        }
+      ],
+      "invoiceTotalRub": null,
+      "invoicePaidPercent": null
+    },
+    {
+      "id": "185331",
+      "contractNumber": "SN-185331",
+      "changed": 1781913600,
+      "customerStatus": "proposalSent",
+      "isCancelled": false,
+      "unread": false,
+      "managerName": "Ольга Кузнецова",
+      "brand": "Beckhoff",
+      "product": "Beckhoff C6015",
+      "qty": 3,
+      "qtyUnits": "pcs",
+      "shippingMin": 6,
+      "shippingMax": 8,
+      "proposalNumber": "КП-185331",
+      "proposalLines": [
+        {
+          "id": "pp-185331-1",
+          "title": "Beckhoff C6015 промышленный компьютер",
+          "qty": 3,
+          "currency": "EUR",
+          "unit": 1560.0,
+          "line": 4680.0
+        }
+      ],
+      "invoiceTotalRub": null,
+      "invoicePaidPercent": null
+    },
+    {
+      "id": "185332",
+      "contractNumber": "SN-185332",
+      "changed": 1781395200,
+      "customerStatus": "invoiceSent",
+      "isCancelled": false,
+      "unread": true,
+      "managerName": "Сергей Иванов",
+      "brand": "Mitsubishi",
+      "product": "Mitsubishi FR-D720",
+      "qty": 5,
+      "qtyUnits": "pcs",
+      "shippingMin": 4,
+      "shippingMax": 5,
+      "proposalNumber": "КП-185332",
+      "proposalLines": [
+        {
+          "id": "pp-185332-1",
+          "title": "Mitsubishi FR-D720 частотный преобразователь",
+          "qty": 5,
+          "currency": "EUR",
+          "unit": 410.0,
+          "line": 2050.0
+        }
+      ],
+      "invoiceTotalRub": 210000,
+      "invoicePaidPercent": 0
+    },
+    {
+      "id": "185333",
+      "contractNumber": "SN-185333",
+      "changed": 1782518400,
+      "customerStatus": "invoiceSent",
+      "isCancelled": false,
+      "unread": true,
+      "managerName": "Анна Петрова",
+      "brand": "Bosch Rexroth",
+      "product": "Bosch Rexroth 4WE6",
+      "qty": 2,
+      "qtyUnits": "pcs",
+      "shippingMin": 3,
+      "shippingMax": 4,
+      "proposalNumber": "КП-185333",
+      "proposalLines": [
+        {
+          "id": "pp-185333-1",
+          "title": "Bosch Rexroth 4WE6 гидрораспределитель",
+          "qty": 2,
+          "currency": "EUR",
+          "unit": 980.0,
+          "line": 1960.0
+        }
+      ],
+      "invoiceTotalRub": 196000,
+      "invoicePaidPercent": 100
+    },
+    {
+      "id": "185334",
+      "contractNumber": "SN-185334",
+      "changed": 1780790400,
+      "customerStatus": "ordered",
+      "isCancelled": false,
+      "unread": false,
+      "managerName": "Ольга Кузнецова",
+      "brand": "IFM",
+      "product": "IFM PN7097",
+      "qty": 20,
+      "qtyUnits": "pcs",
+      "shippingMin": 2,
+      "shippingMax": 3,
+      "proposalNumber": "КП-185334",
+      "proposalLines": [
+        {
+          "id": "pp-185334-1",
+          "title": "IFM PN7097 датчик давления",
+          "qty": 20,
+          "currency": "EUR",
+          "unit": 65.3,
+          "line": 1306.0
+        }
+      ],
+      "invoiceTotalRub": 130600,
+      "invoicePaidPercent": 100
+    },
+    {
+      "id": "185335",
+      "contractNumber": "SN-185335",
+      "changed": 1780358400,
+      "customerStatus": "partiallyInTransit",
+      "isCancelled": false,
+      "unread": false,
+      "managerName": "Сергей Иванов",
+      "brand": "Pilz",
+      "product": "Pilz PNOZ s3",
+      "qty": 6,
+      "qtyUnits": "pcs",
+      "shippingMin": 3,
+      "shippingMax": 5,
+      "proposalNumber": "КП-185335",
+      "proposalLines": [
+        {
+          "id": "pp-185335-1",
+          "title": "Pilz PNOZ s3 реле безопасности",
+          "qty": 6,
+          "currency": "EUR",
+          "unit": 210.75,
+          "line": 1264.5
+        }
+      ],
+      "invoiceTotalRub": 126450,
+      "invoicePaidPercent": 100
+    },
+    {
+      "id": "185336",
+      "contractNumber": "SN-185336",
+      "changed": 1779926400,
+      "customerStatus": "inTransit",
+      "isCancelled": false,
+      "unread": false,
+      "managerName": "Анна Петрова",
+      "brand": "Pepperl+Fuchs",
+      "product": "Pepperl+Fuchs ENA58IL",
+      "qty": 8,
+      "qtyUnits": "pcs",
+      "shippingMin": 3,
+      "shippingMax": 4,
+      "proposalNumber": "КП-185336",
+      "proposalLines": [
+        {
+          "id": "pp-185336-1",
+          "title": "Pepperl+Fuchs ENA58IL энкодер",
+          "qty": 8,
+          "currency": "EUR",
+          "unit": 145.2,
+          "line": 1161.6
+        }
+      ],
+      "invoiceTotalRub": 92928,
+      "invoicePaidPercent": 100
+    },
+    {
+      "id": "185327",
+      "contractNumber": "SN-185327",
+      "changed": 1777766400,
+      "customerStatus": "shipped",
+      "isCancelled": false,
+      "unread": false,
+      "managerName": "Сергей Иванов",
+      "brand": "ABB",
+      "product": "ABB ACS580-01-12A6-4",
+      "qty": 2,
+      "qtyUnits": "pcs",
+      "shippingMin": 4,
+      "shippingMax": 6,
+      "proposalNumber": "КП-185327",
+      "proposalLines": [
+        {
+          "id": "pp-185327-1",
+          "title": "ABB ACS580-01-12A6-4 частотный преобразователь",
+          "qty": 2,
+          "currency": "EUR",
+          "unit": 2041.67,
+          "line": 4083.34
+        }
+      ],
+      "invoiceTotalRub": 490000,
+      "invoicePaidPercent": 100
+    },
+    {
+      "id": "185337",
+      "contractNumber": "SN-185337",
+      "changed": 1779494400,
+      "customerStatus": "cancelled",
+      "isCancelled": true,
+      "unread": false,
+      "managerName": "Ольга Кузнецова",
+      "brand": "Hawe Hydraulik",
+      "product": "Hawe Hydraulik R4",
+      "qty": 1,
+      "qtyUnits": "pcs",
+      "shippingMin": 6,
+      "shippingMax": 9,
+      "proposalNumber": "КП-185337",
+      "proposalLines": [
+        {
+          "id": "pp-185337-1",
+          "title": "Hawe Hydraulik R4 насос",
+          "qty": 1,
+          "currency": "EUR",
+          "unit": 3200.0,
+          "line": 3200.0
+        }
+      ],
+      "invoiceTotalRub": null,
+      "invoicePaidPercent": null
+    }
+  ]
+}
